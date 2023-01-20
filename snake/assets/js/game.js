@@ -2,6 +2,8 @@ import { update as updateSnake, draw as drawSnake, snake_speed, get_snake_head, 
 import { update as updateFood, draw as drawFood } from './food.js'
 import { outSide_grid } from './grid.js'
 
+alert('use the arrow keys')
+
 let LastRendertime = 0
 let gameOver = false
 const gameBoard = document.getElementById('game_board')
